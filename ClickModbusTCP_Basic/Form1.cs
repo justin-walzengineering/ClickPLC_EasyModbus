@@ -58,7 +58,7 @@ namespace ClickModbusTCP_Basic
             }
             catch (Exception exc)
             {
-                MessageBox.Show(exc.Message, "Exception writing values to Server", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(exc.Message, "Exception writing values to PLC", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -211,6 +211,28 @@ namespace ClickModbusTCP_Basic
 
         }
 
+        private void btnC114_MouseDown(object sender, MouseEventArgs e)
+        {
+            WriteToPLC(16498, true);
+        }
+
+        private void btnC114_MouseUp(object sender, MouseEventArgs e)
+        {
+            WriteToPLC(16498, false);
+        }
+
+        private void btnC115_MouseDown(object sender, MouseEventArgs e)
+        {
+            WriteToPLC(16499, true);
+        }
+
+        private void btnC115_MouseUp(object sender, MouseEventArgs e)
+        {
+            WriteToPLC(16499, false);
+        }
+
         #endregion
+
+
     }
 }
