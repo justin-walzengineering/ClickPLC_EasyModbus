@@ -1,0 +1,6 @@
+D:\VisualStudio2019\ClickModbusTCP_Basic\EasyModbus\bin\Debug\EasyModbus.xml
+D:\VisualStudio2019\ClickModbusTCP_Basic\EasyModbus\bin\Debug\EasyModbus.dll
+D:\VisualStudio2019\ClickModbusTCP_Basic\EasyModbus\bin\Debug\EasyModbus.pdb
+D:\VisualStudio2019\ClickModbusTCP_Basic\EasyModbus\obj\Debug\EasyModbus.csprojAssemblyReference.cache
+D:\VisualStudio2019\ClickModbusTCP_Basic\EasyModbus\obj\Debug\EasyModbus.dll
+D:\VisualStudio2019\ClickModbusTCP_Basic\EasyModbus\obj\Debug\EasyModbus.pdb
